@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Hero, ProductCard, LoadingSpinner } from '../components';
+import { Hero, ProductCard } from '../components';
 import { useStore } from '../store/useStore';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Award, Headphones } from 'lucide-react';

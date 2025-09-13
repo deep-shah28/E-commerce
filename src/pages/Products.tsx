@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { ProductCard, LoadingSpinner } from '../components';
+import { ProductCard } from '../components';
 import { useStore } from '../store/useStore';
 import { Filter, Search, SlidersHorizontal } from 'lucide-react';
 

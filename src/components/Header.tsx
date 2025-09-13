@@ -7,12 +7,11 @@ import { useStore } from '../store/useStore';
 const Header: React.FC = () => {
   const {
     cart,
-    isCartOpen,
-    isMobileMenuOpen,
+    categories,
     toggleCart,
+    isMobileMenuOpen,
     toggleMobileMenu,
     closeMobileMenu,
-    categories,
   } = useStore();
 
   const cartItemsCount = cart?.total_items || 0;
